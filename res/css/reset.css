@@ -9,3 +9,9 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
