@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예제 1</title>
+    <link rel="stylesheet" href="../tut02/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        /*1920px = 100%*/
+        main{
+            width: 14
+            00px;
+            /* 글자정렬 x, 내용을 담고 있는 사각형을 화면 가운데 위치 */
+            margin: 0 auto;
+        }
+        h2{
+            /*폰트 기본 16px -> 반응형 크기로 바꾸려면
+            35/16 => */
+            font-size: 2.1875rem;
+            text-decoration: underline;
+        }
+
+        h2, #han, .han {
+            font-family: 'Gothic A1', sans-serif;
+
+        }
+
+        p{
+            font-family: 'Roboto', sans-serif;
+        }
+        article{
+            padding: 40px 10px;
+        }
+        .han{
+            margin: 10px 0;
+            /*alpha 값 : 투명도 처리 0(투명) ~ 1까지(불투명)*/
+            color: rgba(0, 0, 0, 0.5);
+            font-style: italic;
+            /*text-decoration: underline;*/
+            /* 14px */
+            font-size: 0.875rem;
+        }
+        .contents{
+            color: rgba(0, 0, 0, 0.8);
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        .btn{
+            /*border: none;*/
+            border:0;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            font-size: 18px;
+            border: 1px solid #cccccc;
+            padding: 14px 24px;
+            /* 정원 50%, 타원 50px*/
+            border-radius: 50px;
+            background-color: transparent;
+            margin-top: 30px;
+        }
+
+        .btn:hover{
+            background-color: tomato;
+            color: #fff;
+            border:1px solid transparent;/*커서를 올렸을 때 흔들리지 않게끔*/
+            cursor: pointer;
+            transition: 0.2s;
+            
+        }
+
+        i{
+            color: red;
+            cursor: pointer;
+        }
+
+        hr{
+            border: 0;
+            border-top:1px solid rgba(0, 0, 0, 0.6);
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <article>
+            <h2 id="han">삼성전자 3분기 영업이익 2조원대 회복...반도체 적자 줄면서 '깜짝 실적'</h2>
+            <p class="han">삼성일보 입력 2023.10.11 10:09</p>
+            <p class="contents">Samsung Electronics predicted Wednesday that its operating profits in the July-September period would recover to exceed 2 trillion won ($1.5 billion) after months of efforts to elevate profitability amid memory chip slump...<i class="fa-solid fa-square-plus"></i>       
+            </p>
+            <button class="btn">Continue Reading</button>
+        </article>
+        <hr />
+        <article>
+            <h2 id="han">삼성전자 3분기 영업이익 2조원대 회복...반도체 적자 줄면서 '깜짝 실적'</h2>
+            <p class="han">삼성일보 입력 2023.10.11 10:09</p>
+            <p class="contents">Samsung Electronics predicted Wednesday that its operating profits in the July-September period would recover to exceed 2 trillion won ($1.5 billion) after months of efforts to elevate profitability amid memory chip slump...<i class="fa-solid fa-square-plus"></i>       
+            </p>
+            <button class="btn">Continue Reading</button>
+        </article>
+        <hr />
+    </main>
+
+</body>
+</html>

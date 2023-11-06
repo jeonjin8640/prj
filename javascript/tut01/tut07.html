@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 바꾸기</title>
+    <style>
+        .box{
+            width: 300px;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <img src="./images/bill1.jpg" alt="bill gates">
+    </div>
+    <button>이미지 바꾸기</button>
+
+    <script>
+        let img = document.querySelector(".box img");
+        // console.log(img.src);
+        let btn = document.querySelector("button");
+        function changeImg(){
+            // console.log("ok");
+            //console.log(img.src);
+            img.src = "images/bill2.webp";
+        }
+
+        btn.onclick = changeImg;
+    </script>
+</body>
+</html>
