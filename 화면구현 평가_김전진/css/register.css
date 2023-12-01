@@ -1,0 +1,97 @@
+@charset 'utf-8';
+
+.login-box{
+    width: 450px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 3px 1px tomato;
+    padding: 50px 30px;
+    border-radius: 3px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+h1 img{
+    width: 100px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-box ul li *{
+    display: block;
+}
+.form-box ul li label{
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.form-box ul li input{
+    width: 100%;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px 5px;
+    border: 0;
+    border: 1px solid #d7d7d7;
+    outline: 0;
+}
+.gender-box input {
+    width: 0;
+}
+
+.form-box ul li input:focus{
+    border: 1px solid blue;
+}
+
+.input-box {
+    display: flex;
+    justify-content: end;
+    margin: 30px 0;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.form-box ul li button{
+    border: 0;
+    border-radius: 3px;
+    background-color: blue;
+    padding: 12px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+}
+.gender-box {
+    font-size: 14px;
+    
+}
+
+select{
+    padding: 10px;
+    width: 180px;
+    border: 0;
+    border: 1px solid #eee;
+}
+.select-box {
+    display: flex;
+    justify-content: space-between;
+}
+.select-box label{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
